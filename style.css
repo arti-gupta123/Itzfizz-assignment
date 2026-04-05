@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HERO */
+.hero {
+  height: 120vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+/* TITLE */
+.title {
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: 120px;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+}
+
+/* LETTER SPACING EFFECT */
+.title span {
+  display: inline-block;
+  opacity: 0;
+}
+
+/* STATS */
+.stats {
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.stats div {
+  margin: 8px;
+  opacity: 0;
+  font-size: 18px;
+}
+
+/* CAR */
+.car {
+  height: 200px;
+  width: 320px;
+  position: absolute;
+  top: 20%;
+  left: -550px; /* start fully outside */
+  transform: translateY(-50%);
+  filter: drop-shadow(0 25px 25px rgba(0,0,0,0.5));
+}
+
+/* SCROLL */
+.scroll-space {
+  height: 10vh;
+}
+
+.scroll-container {
+  width: 200%;   /* double width */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
